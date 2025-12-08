@@ -21,7 +21,7 @@ namespace ParticipantApp.Controllers
             return View(ParticipantList);
         }
 
-        [HttpGet("id")]
+        [HttpGet("Detail/{id}")]
         public IActionResult Detail (int id)
         {
             var participantGet = participantService.Get(id).Data;
@@ -70,6 +70,26 @@ namespace ParticipantApp.Controllers
         {
             participantService.Delete(id);
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Search(int? id)
+        {
+            if (id.HasValue && id.Value > 0)
+            {
+                var participant = participantService.Get(id.Value).Data;
+                if (participant != null)
+                {                    
+                    var list = new List<Participant> { participant };
+                    return View("Index", list);
+                }
+               
+                return View("Index", new List<Participant>());
+            }
+
+            
+            var participantList = participantService.GetAll().Data;
+            return View("Index", participantList);
         }
 
     }

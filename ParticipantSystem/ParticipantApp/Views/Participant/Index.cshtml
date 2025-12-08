@@ -1,6 +1,20 @@
 ﻿@using Entities.TableModels
 @model List<Participant>
 
+<h2>Participant List</h2>
+
+
+<form asp-controller="Participant" asp-action="Search" method="get" style="margin-bottom: 20px;">
+    <div class="form-group" style="display: flex; gap: 10px; align-items: center;">
+        <label>Search By Id:</label>
+        <input type="number" name="id" class="form-control" style="width: 200px;" placeholder="Please enter the Id" />
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-controller="Participant" asp-action="Index" class="btn btn-secondary">Show All</a>
+    </div>
+</form>
+
+<hr />
+
 <style>
     table, th, td {
         border: 1px solid black;
@@ -30,8 +44,8 @@
                 <td>@item.Age</td>
                 <td>@item.Country</td>
                 <td>@item.TeamName</td>
-                <td><a href="Participant/Edit/@item.Id">Edit</a></td>
-                <td><a href="Participant/Delete/@item.Id">Delete</a></td>
+                <td><a asp-controller="Participant" asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
+                <td><a asp-controller="Participant" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
                 </tr> 
         }
     </tbody>
