@@ -1,0 +1,40 @@
+﻿@using Entities.TableModels
+@model List<Participant>
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>Team</th>
+            <th>Edit</th>
+            <th>Delete</th>
+</tr>
+</thead>
+
+<tbody>
+    @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Country</td>
+                <td>@item.TeamName</td>
+                <td><a href="Participant/Edit/@item.Id">Edit</a></td>
+                <td><a href="Participant/Delete/@item.Id">Delete</a></td>
+                </tr> 
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Participant" asp-action="Add">Add</a>
