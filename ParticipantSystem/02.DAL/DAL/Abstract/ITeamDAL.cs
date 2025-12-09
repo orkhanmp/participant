@@ -10,5 +10,7 @@ namespace DAL.Abstract
 {
     public interface ITeamDAL:IBaseRepository<Team>
     {
+        List<Team> GetAllWithParticipants();
+        Team GetWithParticipants(int id);
     }
 }

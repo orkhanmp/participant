@@ -42,13 +42,13 @@ namespace BLL.Concrete
 
         public IDataResult<Team> Get(int id)
         {
-            var team = teamDAL.Get(t => t.Id == id);
+            var team = teamDAL.GetWithParticipants(id);
             return new SuccessDataResult<Team>(team);
         }
 
         public IDataResult<List<Team>> GetAll()
         {
-            var teams = teamDAL.GetAll();
+            var teams = teamDAL.GetAllWithParticipants(); 
             return new SuccessDataResult<List<Team>>(teams);
         }
     }

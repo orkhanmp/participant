@@ -3,62 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\concrete\\participantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\concrete\\participantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\concrete\\participantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\concrete\\participantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\abstract\\iparticipantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\abstract\\iparticipantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\abstract\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\abstract\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\abstract\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\abstract\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\participant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\participant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\participant\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\participant\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\concrete\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\concrete\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,20 +15,76 @@
       "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\abstract\\iteamdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\participant\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\participant\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\configuration\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\configuration\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\concrete\\participantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\concrete\\participantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\abstract\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\abstract\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\03.bll\\bll\\abstract\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6CD71E-27CB-DF34-DA9D-408973630D43}|03.BLL\\BLL\\BLL.csproj|solutionrelative:03.bll\\bll\\abstract\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\concrete\\participantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\concrete\\participantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B1F851-FB4F-A17F-5C38-7F98855FEE9E}|01.Entities\\Entities\\Entities.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\01.entities\\entities\\tablemodels\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B1F851-FB4F-A17F-5C38-7F98855FEE9E}|01.Entities\\Entities\\Entities.csproj|solutionrelative:01.entities\\entities\\tablemodels\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18B1F851-FB4F-A17F-5C38-7F98855FEE9E}|01.Entities\\Entities\\Entities.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\01.entities\\entities\\tablemodels\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B1F851-FB4F-A17F-5C38-7F98855FEE9E}|01.Entities\\Entities\\Entities.csproj|solutionrelative:01.entities\\entities\\tablemodels\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B1F851-FB4F-A17F-5C38-7F98855FEE9E}|01.Entities\\Entities\\Entities.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\01.entities\\entities\\tablemodels\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B1F851-FB4F-A17F-5C38-7F98855FEE9E}|01.Entities\\Entities\\Entities.csproj|solutionrelative:01.entities\\entities\\tablemodels\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\participant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\participant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\abstract\\iparticipantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\abstract\\iparticipantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\participantapp\\views\\team\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{485D60FD-5F9E-647A-28C8-452A68EE5382}|ParticipantApp\\ParticipantApp.csproj|solutionrelative:participantapp\\views\\team\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\02.dal\\dal\\configuration\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A45A53-6A15-657D-5AF5-AF6BC4425D32}|02.DAL\\DAL\\DAL.csproj|solutionrelative:02.dal\\dal\\configuration\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57A42F7B-BB0F-C892-17D4-7A4992AAC4E9}|00.Core\\Core\\Core.csproj|c:\\users\\orkhan\\desktop\\orkhan\\csharp\\participant\\participantsystem\\00.core\\core\\concrete\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,55 +126,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITeamService.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Abstract\\ITeamService.cs",
-              "RelativeDocumentMoniker": "03.BLL\\BLL\\Abstract\\ITeamService.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Abstract\\ITeamService.cs",
-              "RelativeToolTip": "03.BLL\\BLL\\Abstract\\ITeamService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:10:56.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ParticipantDAL.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
-              "RelativeDocumentMoniker": "02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
-              "RelativeToolTip": "02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:09:20.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "TeamDAL.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Concrete\\TeamDAL.cs",
               "RelativeDocumentMoniker": "02.DAL\\DAL\\Concrete\\TeamDAL.cs",
               "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Concrete\\TeamDAL.cs",
               "RelativeToolTip": "02.DAL\\DAL\\Concrete\\TeamDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:08:32.374Z"
+              "WhenOpened": "2025-12-09T08:08:32.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParticipantDAL.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
+              "RelativeDocumentMoniker": "02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
+              "RelativeToolTip": "02.DAL\\DAL\\Concrete\\ParticipantDAL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:09:20.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITeamDAL.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
+              "RelativeDocumentMoniker": "02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
+              "RelativeToolTip": "02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:07:49.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Index.cshtml",
-              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Participant\\Index.cshtml",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Index.cshtml",
-              "RelativeToolTip": "ParticipantApp\\Views\\Participant\\Index.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAIwDIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T16:16:55.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IParticipantService.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Abstract\\IParticipantService.cs",
               "RelativeDocumentMoniker": "03.BLL\\BLL\\Abstract\\IParticipantService.cs",
@@ -186,31 +176,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "ITeamService.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Abstract\\ITeamService.cs",
+              "RelativeDocumentMoniker": "03.BLL\\BLL\\Abstract\\ITeamService.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Abstract\\ITeamService.cs",
+              "RelativeToolTip": "03.BLL\\BLL\\Abstract\\ITeamService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:10:56.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ParticipantManager.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Concrete\\ParticipantManager.cs",
               "RelativeDocumentMoniker": "03.BLL\\BLL\\Concrete\\ParticipantManager.cs",
               "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Concrete\\ParticipantManager.cs",
               "RelativeToolTip": "03.BLL\\BLL\\Concrete\\ParticipantManager.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwBUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T16:06:04.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IParticipantDAL.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
-              "RelativeDocumentMoniker": "02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
-              "RelativeToolTip": "02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TeamManager.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Concrete\\TeamManager.cs",
+              "RelativeDocumentMoniker": "03.BLL\\BLL\\Concrete\\TeamManager.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Concrete\\TeamManager.cs",
+              "RelativeToolTip": "03.BLL\\BLL\\Concrete\\TeamManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:07:24.781Z"
+              "WhenOpened": "2025-12-09T08:12:09.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ParticipantController.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Controllers\\ParticipantController.cs",
               "RelativeDocumentMoniker": "ParticipantApp\\Controllers\\ParticipantController.cs",
@@ -218,24 +221,60 @@
               "RelativeToolTip": "ParticipantApp\\Controllers\\ParticipantController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:04:24.53Z",
+              "WhenOpened": "2025-12-08T16:04:24.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Add.cshtml",
+              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Participant\\Add.cshtml",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Add.cshtml",
+              "RelativeToolTip": "ParticipantApp\\Views\\Participant\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T16:26:17.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TeamManager.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Concrete\\TeamManager.cs",
-              "RelativeDocumentMoniker": "03.BLL\\BLL\\Concrete\\TeamManager.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\03.BLL\\BLL\\Concrete\\TeamManager.cs",
-              "RelativeToolTip": "03.BLL\\BLL\\Concrete\\TeamManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Team.cs",
+              "RelativeDocumentMoniker": "01.Entities\\Entities\\TableModels\\Team.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Team.cs",
+              "RelativeToolTip": "01.Entities\\Entities\\TableModels\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:12:09.303Z"
+              "WhenOpened": "2025-12-09T07:50:17.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Participant.cs",
+              "RelativeDocumentMoniker": "01.Entities\\Entities\\TableModels\\Participant.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Participant.cs",
+              "RelativeToolTip": "01.Entities\\Entities\\TableModels\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:23:07.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Team\\Index.cshtml",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Index.cshtml",
+              "RelativeToolTip": "ParticipantApp\\Views\\Team\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T08:25:46.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TeamController.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Controllers\\TeamController.cs",
               "RelativeDocumentMoniker": "ParticipantApp\\Controllers\\TeamController.cs",
@@ -247,19 +286,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Index.cshtml",
-              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Team\\Index.cshtml",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Index.cshtml",
-              "RelativeToolTip": "ParticipantApp\\Views\\Team\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwDsAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Participant\\Index.cshtml",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Index.cshtml",
+              "RelativeToolTip": "ParticipantApp\\Views\\Participant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-09T08:25:46.903Z"
+              "WhenOpened": "2025-12-08T16:16:55.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Participant\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Edit.cshtml",
+              "RelativeToolTip": "ParticipantApp\\Views\\Participant\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T16:44:59.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IParticipantDAL.cs",
+              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
+              "RelativeDocumentMoniker": "02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
+              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
+              "RelativeToolTip": "02.DAL\\DAL\\Abstract\\IParticipantDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:07:24.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Add.cshtml",
               "RelativeDocumentMoniker": "ParticipantApp\\Views\\Team\\Add.cshtml",
@@ -271,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Edit.cshtml",
               "RelativeDocumentMoniker": "ParticipantApp\\Views\\Team\\Edit.cshtml",
@@ -283,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Team\\Detail.cshtml",
               "RelativeDocumentMoniker": "ParticipantApp\\Views\\Team\\Detail.cshtml",
@@ -292,42 +355,6 @@
               "ViewState": "AgIAABYAAAAAAAAAAAAIwD0AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-09T08:27:41.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Add.cshtml",
-              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Participant\\Add.cshtml",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Add.cshtml",
-              "RelativeToolTip": "ParticipantApp\\Views\\Participant\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T16:26:17.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ParticipantApp\\Views\\Participant\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\ParticipantApp\\Views\\Participant\\Edit.cshtml",
-              "RelativeToolTip": "ParticipantApp\\Views\\Participant\\Edit.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T16:44:59.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ITeamDAL.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
-              "RelativeDocumentMoniker": "02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
-              "RelativeToolTip": "02.DAL\\DAL\\Abstract\\ITeamDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:07:49.166Z"
             },
             {
               "$type": "Document",
@@ -343,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Database\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "02.DAL\\DAL\\Database\\ApplicationDbContext.cs",
@@ -368,18 +395,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Team.cs",
-              "RelativeDocumentMoniker": "01.Entities\\Entities\\TableModels\\Team.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Team.cs",
-              "RelativeToolTip": "01.Entities\\Entities\\TableModels\\Team.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T07:50:17.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "ParticipantConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\02.DAL\\DAL\\Configuration\\ParticipantConfiguration.cs",
               "RelativeDocumentMoniker": "02.DAL\\DAL\\Configuration\\ParticipantConfiguration.cs",
@@ -400,18 +415,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T16:38:18.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Participant.cs",
-              "DocumentMoniker": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Participant.cs",
-              "RelativeDocumentMoniker": "01.Entities\\Entities\\TableModels\\Participant.cs",
-              "ToolTip": "C:\\Users\\orkhan\\Desktop\\Orkhan\\CSharp\\participant\\ParticipantSystem\\01.Entities\\Entities\\TableModels\\Participant.cs",
-              "RelativeToolTip": "01.Entities\\Entities\\TableModels\\Participant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:23:07.741Z"
             },
             {
               "$type": "Document",
