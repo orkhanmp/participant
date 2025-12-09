@@ -18,9 +18,16 @@ namespace DAL.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            modelBuilder.Entity<Participant>()
+           .HasOne(p => p.Team)
+           .WithMany(t => t.Participants)
+           .HasForeignKey(p => p.TeamId)
+           .OnDelete(DeleteBehavior.Restrict);
+
+            base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Participant> Participants { get; set; }    
+        public DbSet<Participant> Participants { get; set; }
+        public DbSet<Team> Teams { get; set; }
     }
 }

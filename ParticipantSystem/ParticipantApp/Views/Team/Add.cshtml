@@ -1,0 +1,26 @@
+﻿@using Entities.TableModels
+@model Team
+
+<h2>Add Team</h2>
+
+<form asp-controller="Team" asp-action="Add" method="post">
+    <div class="form-group">
+        <label>Team Name</label>
+        <input type="text" name="TeamName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Country</label>
+        <input type="text" name="Country" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Founded Year</label>
+        <input type="number" name="FoundedYear" class="form-control" required min="1800" max="2025" />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Team" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

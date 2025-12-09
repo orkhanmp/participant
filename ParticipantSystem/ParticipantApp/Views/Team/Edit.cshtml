@@ -1,0 +1,40 @@
+﻿@using Entities.TableModels
+@model Team
+
+<h2>Edit Team</h2>
+
+<form asp-controller="Team" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label>Team Name</label>
+        <input type="text" asp-for="TeamName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Country</label>
+        <input type="text" asp-for="Country" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Founded Year</label>
+        <input type="number" asp-for="FoundedYear" class="form-control" required min="1800" max="2025" />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Team" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@if (Model.Participants != null && Model.Participants.Any())
+{
+    <hr />
+    <h4>Players in this Team:</h4>
+    <ul>
+        @foreach (var participant in Model.Participants)
+        {
+            <li>@participant.Name - @participant.Age years old (@participant.Country)</li>
+        }
+    </ul>
+}

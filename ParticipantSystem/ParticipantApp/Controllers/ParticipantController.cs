@@ -9,10 +9,12 @@ namespace ParticipantApp.Controllers
     public class ParticipantController : Controller
     {
         private readonly IParticipantService participantService;
+        private readonly ITeamService teamService;
 
         public ParticipantController()
         {
             participantService = new ParticipantManager();
+            teamService = new TeamManager();
         }
         [HttpGet]
         public IActionResult Index()
@@ -29,31 +31,32 @@ namespace ParticipantApp.Controllers
         }
 
         [HttpGet]
-
         public IActionResult Add()
-        { 
-            return View(); 
+        {
+            
+            ViewBag.Teams = teamService.GetAll().Data;
+            return View();
         }
-
         [HttpPost]
 
         public IActionResult Add (Participant participant)
         {
             participantService.Add(participant);
             return RedirectToAction("Index");
-        }
 
+        }
         [HttpGet]
 
+        [HttpGet]
         public IActionResult Edit(int id)
         {
             if (id != 0)
             {
-                var participantId = participantService.Get(id).Data;
-                return View(participantId);
+                var participant = participantService.Get(id).Data;
+                ViewBag.Teams = teamService.GetAll().Data;
+                return View(participant);
             }
-
-            return RedirectToAction();
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -79,15 +82,13 @@ namespace ParticipantApp.Controllers
             {
                 var participant = participantService.Get(id.Value).Data;
                 if (participant != null)
-                {                    
+                {
                     var list = new List<Participant> { participant };
                     return View("Index", list);
                 }
-               
                 return View("Index", new List<Participant>());
             }
 
-            
             var participantList = participantService.GetAll().Data;
             return View("Index", participantList);
         }

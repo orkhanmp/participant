@@ -1,0 +1,62 @@
+﻿@using Entities.TableModels
+@model Team
+
+<h2>Team Details</h2>
+
+<div class="card" style="padding: 20px; margin-bottom: 20px;">
+    <h3>@Model.TeamName</h3>
+    <p><strong>Country:</strong> @Model.Country</p>
+    <p><strong>Founded Year:</strong> @Model.FoundedYear</p>
+    <p><strong>Total Players:</strong> @(Model.Participants?.Count ?? 0)</p>
+</div>
+
+@if (Model.Participants != null && Model.Participants.Any())
+{
+    <h4>Players:</h4>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var participant in Model.Participants)
+            {
+                <tr>
+                    <td>@participant.Name</td>
+                    <td>@participant.Age</td>
+                    <td>@participant.Country</td>
+                    <td><a asp-controller="Participant" asp-action="Edit" asp-route-id="@participant.Id" class="btn btn-sm btn-info">View/Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No players in this team yet.</p>
+}
+
+<br />
+<a asp-controller="Team" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit Team</a>
+<a asp-controller="Team" asp-action="Index" class="btn btn-secondary">Back to Teams</a>

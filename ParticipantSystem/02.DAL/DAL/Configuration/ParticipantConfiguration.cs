@@ -18,7 +18,7 @@ namespace DAL.Configuration
             builder.Property(x => x.Name).HasColumnType("nvarchar").HasMaxLength(250);
             builder.Property(x => x.Age).HasColumnType("int");
             builder.Property(x => x.Country).HasColumnType("nvarchar").HasMaxLength(250);
-            builder.Property(x => x.TeamName).HasColumnType("nvarchar").HasMaxLength(250);
+            
 
         }
 

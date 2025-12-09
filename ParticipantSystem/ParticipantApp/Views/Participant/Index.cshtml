@@ -3,7 +3,6 @@
 
 <h2>Participant List</h2>
 
-
 <form asp-controller="Participant" asp-action="Search" method="get" style="margin-bottom: 20px;">
     <div class="form-group" style="display: flex; gap: 10px; align-items: center;">
         <label>Search By Id:</label>
@@ -18,7 +17,17 @@
 <style>
     table, th, td {
         border: 1px solid black;
-        border-collapse: collapse
+        border-collapse: collapse;
+        padding: 8px;
+        text-align: left;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th {
+        background-color: #f2f2f2;
     }
 </style>
 
@@ -32,23 +41,34 @@
             <th>Team</th>
             <th>Edit</th>
             <th>Delete</th>
-</tr>
-</thead>
+        </tr>
+    </thead>
 
-<tbody>
-    @foreach(var item in Model)
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Age</td>
+                    <td>@item.Country</td>
+                    <td>@(item.Team?.TeamName ?? "No Team")</td>
+                    <td><a asp-controller="Participant" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a></td>
+                    <td><a asp-controller="Participant" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this participant?');">Delete</a></td>
+                </tr>
+            }
+        }
+        else
         {
             <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.Age</td>
-                <td>@item.Country</td>
-                <td>@item.TeamName</td>
-                <td><a asp-controller="Participant" asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
-                <td><a asp-controller="Participant" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
-                </tr> 
+                <td colspan="7" style="text-align: center;">No participants found.</td>
+            </tr>
         }
     </tbody>
 </table>
 
-<a asp-controller="Participant" asp-action="Add">Add</a>
+<br />
+<a asp-controller="Participant" asp-action="Add" class="btn btn-success">Add New Participant</a>
+<a asp-controller="Team" asp-action="Index" class="btn btn-info">Manage Teams</a>

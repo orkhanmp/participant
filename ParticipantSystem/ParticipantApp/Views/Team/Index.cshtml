@@ -1,0 +1,64 @@
+﻿@using Entities.TableModels
+@model List<Team>
+
+<h2>Team List</h2>
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+        text-align: left;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Team Name</th>
+            <th>Country</th>
+            <th>Founded Year</th>
+            <th>Player Count</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var team in Model)
+            {
+                <tr>
+                    <td>@team.Id</td>
+                    <td>@team.TeamName</td>
+                    <td>@team.Country</td>
+                    <td>@team.FoundedYear</td>
+                    <td>@(team.Participants?.Count ?? 0)</td>
+                    <td><a asp-controller="Team" asp-action="Edit" asp-route-id="@team.Id" class="btn btn-sm btn-warning">Edit</a></td>
+                    <td><a asp-controller="Team" asp-action="Delete" asp-route-id="@team.Id" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this team? All participants will lose their team assignment.');">Delete</a></td>
+                    <td><a asp-controller="Team" asp-action="Detail" asp-route-id="@team.Id" class="btn btn-sm btn-info">Details</a></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7" style="text-align: center;">No teams found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a asp-controller="Team" asp-action="Add" class="btn btn-success">Add New Team</a>
+<a asp-controller="Participant" asp-action="Index" class="btn btn-info">Back to Participants</a>

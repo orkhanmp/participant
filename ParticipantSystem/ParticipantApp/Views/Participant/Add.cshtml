@@ -1,27 +1,39 @@
 ﻿@using Entities.TableModels
 @model Participant
 
+<h2>Add Participant</h2>
+
 <form asp-controller="Participant" asp-action="Add" method="post">
     <div class="form-group">
         <label>Name</label>
-        <input type="text" name="Name" class="form-control" />
+        <input type="text" name="Name" class="form-control" required />
     </div>
 
     <div class="form-group">
         <label>Age</label>
-        <input type="number" name="Age" class="form-control" />
+        <input type="number" name="Age" class="form-control" required />
     </div>
 
     <div class="form-group">
         <label>Country</label>
-        <input type="text" name="Country" class="form-control" />
+        <input type="text" name="Country" class="form-control" required />
     </div>
 
     <div class="form-group">
-        <label>TeamName</label>
-        <input type="text" name="TeamName" class="form-control" />
+        <label>Team</label>
+        <select name="TeamId" class="form-control" required>
+            <option value="">-- Select Team --</option>
+            @if (ViewBag.Teams != null)
+            {
+                @foreach (var team in ViewBag.Teams as List<Team>)
+                {
+                    <option value="@team.Id">@team.TeamName</option>
+                }
+            }
+        </select>
     </div>
-    <br/>
+    <br />
 
     <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Participant" asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>

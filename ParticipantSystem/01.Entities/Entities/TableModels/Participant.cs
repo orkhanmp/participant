@@ -12,6 +12,7 @@ namespace Entities.TableModels
         public string Name { get; set; }
         public int Age { get; set; }
         public string Country { get; set; }
-        public string TeamName { get; set; }
+        public int TeamId { get; set; }
+        public virtual Team Team { get; set; }
     }
 }
